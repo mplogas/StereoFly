@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StereoFly.UI", "StereoFly.UI\StereoFly.UI.csproj", "{C9BC1DFE-69CA-487F-8DD7-9953F38AC8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StereoFly.UI", "StereoFly.UI\StereoFly.UI.csproj", "{C9BC1DFE-69CA-487F-8DD7-9953F38AC8D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StereoFly.Lib", "StereoFly.Lib\StereoFly.Lib.csproj", "{989C10D6-85A0-4795-9FC0-A8E3CBB65A9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StereoFly.TelloLib", "StereoFly.Lib\StereoFly.TelloLib.csproj", "{989C10D6-85A0-4795-9FC0-A8E3CBB65A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StereoFly.Lib.Test", "StereoFly.Lib.Test\StereoFly.Lib.Test.csproj", "{877BBFD9-72B8-4663-9169-F6F668DFB266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StereoFly.Testwiese", "StereoFly.Testwiese\StereoFly.Testwiese.csproj", "{F5991BA8-A842-4C12-923A-7513E6818F0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{989C10D6-85A0-4795-9FC0-A8E3CBB65A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{989C10D6-85A0-4795-9FC0-A8E3CBB65A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{989C10D6-85A0-4795-9FC0-A8E3CBB65A9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{877BBFD9-72B8-4663-9169-F6F668DFB266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{877BBFD9-72B8-4663-9169-F6F668DFB266}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{877BBFD9-72B8-4663-9169-F6F668DFB266}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{877BBFD9-72B8-4663-9169-F6F668DFB266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5991BA8-A842-4C12-923A-7513E6818F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5991BA8-A842-4C12-923A-7513E6818F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5991BA8-A842-4C12-923A-7513E6818F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5991BA8-A842-4C12-923A-7513E6818F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

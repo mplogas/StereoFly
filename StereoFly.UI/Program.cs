@@ -34,7 +34,7 @@ namespace StereoFly.UI
                 if (SK.System.displayType == Display.Opaque)
                     Default.MeshCube.Draw(floorMaterial, floorTransform);
 
-                UI.Handle("Cube", ref cubePose, cube.Bounds);
+                StereoKit.UI.Handle("Cube", ref cubePose, cube.Bounds);
                 cube.Draw(cubePose.ToMatrix());
             })) ;
             SK.Shutdown();
